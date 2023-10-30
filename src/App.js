@@ -23,7 +23,17 @@ function App() {
           </a>
         </header>
         <section>
-          <Componente msg="Hola soy un componente"/>
+          <Componente msg="Hola soy un componente desde una prop"/>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </section>
       </div>
     </>
