@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-const Componente = props => <h2>{props.msg}</h2>
+const Componente = props => <h4>{props.msg}</h4>
 
 // function Componente(props){
 //     return <h2>{props.msg}</h2>

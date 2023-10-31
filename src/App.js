@@ -1,40 +1,44 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Componente from "./componentes/Componente";
+import Propiedades from "./componentes/Propiedades";
 
 function App() {
   return (
     <>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <section>
+            <img src={logo} className="App-logo" alt="logo" />
 
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+            <p>
+              Edit <code>src/App.js</code> and save to reload.
+            </p>
 
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+            <a
+              className="App-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Learn React
+            </a>
+          </section>
+          <section>
+            <Componente msg="Hola soy un componente funcional expresado desde una prop " />
+            <hr />
+            <Propiedades
+              cadena="Esto es una cadena de texto"
+              numero={19}
+              booleano={true}
+              array = {[1,2,4]}
+              objeto = {{nombre: "Juan Carlos",correo: "Juanca.cpc16@gmail.com" }}
+              function = {(num) => num * num}
+              elementoReact = {<i>Esto es un elemento react</i>}
+              componenteReact = {<Componente msg = "Soy un componente pasado como prop"/>}
+            />
+          </section>
         </header>
-        <section>
-          <Componente msg="Hola soy un componente funcional expresado desde una prop "/>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-        </section>
       </div>
     </>
   );
