@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Componente from "./componentes/Componente";
 import Propiedades from "./componentes/Propiedades";
+import Estado from "./componentes/Estado";
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
               elementoReact = {<i>Esto es un elemento react</i>}
               componenteReact = {<Componente msg = "Soy un componente pasado como prop"/>}
             />
+            <hr />
+            <Estado  />  
           </section>
         </header>
       </div>
