@@ -3,6 +3,7 @@ import "./App.css";
 import Componente from "./componentes/Componente";
 import Propiedades from "./componentes/Propiedades";
 import Estado from "./componentes/Estado";
+import RenderizadoCondicional from "./componentes/RenderizadoCondicional";
 
 function App() {
   return (
@@ -40,6 +41,8 @@ function App() {
             />
             <hr />
             <Estado  />  
+            <hr />
+            <RenderizadoCondicional  />  
           </section>
         </header>
       </div>
