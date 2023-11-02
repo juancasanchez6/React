@@ -4,7 +4,7 @@ import Propiedades from "./componentes/Propiedades";
 import Estado from "./componentes/Estado";
 import RenderizadoCondicional from "./componentes/RenderizadoCondicional";
 import RenderizadoElementos from "./componentes/RenderizadoElementos";
-import {EventosES6, EventosES7} from "./componentes/Eventos";
+import { EventosES6, EventosES7, MasSobreEventos } from "./componentes/Eventos";
 import "./App.css";
 
 function App() {
@@ -35,23 +35,32 @@ function App() {
               cadena="Esto es una cadena de texto"
               numero={19}
               booleano={true}
-              array = {[1,2,4]}
-              objeto = {{nombre: "Juan Carlos",correo: "Juanca.cpc16@gmail.com" }}
-              function = {(num) => num * num}
-              elementoReact = {<i>Esto es un elemento react</i>}
-              componenteReact = {<Componente msg = "Soy un componente pasado como prop"/>}
+              array={[1, 2, 4]}
+              objeto={{
+                nombre: "Juan Carlos",
+                correo: "Juanca.cpc16@gmail.com",
+              }}
+              function={(num) => num * num}
+              elementoReact={<i>Esto es un elemento react</i>}
+              componenteReact={
+                <Componente msg="Soy un componente pasado como prop" />
+              }
             />
             <hr />
-            <Estado  />  
+            <Estado />
             <hr />
-            <RenderizadoCondicional  />  
+            <RenderizadoCondicional />
             <hr />
-            <RenderizadoElementos  />  
+            <RenderizadoElementos />
             <hr />
-            <EventosES6  />  
+            <EventosES6 />
             <hr />
-            <EventosES7  />  
-            <br /><br /><br />
+            <EventosES7 />
+            <hr />
+            <MasSobreEventos />
+            <br />
+            <br />
+            <br />
           </section>
         </header>
       </div>
