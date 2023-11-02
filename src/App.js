@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
-import "./App.css";
 import Componente from "./componentes/Componente";
 import Propiedades from "./componentes/Propiedades";
 import Estado from "./componentes/Estado";
 import RenderizadoCondicional from "./componentes/RenderizadoCondicional";
 import RenderizadoElementos from "./componentes/RenderizadoElementos";
+import Eventos from "./componentes/Eventos";
+import "./App.css";
 
 function App() {
   return (
@@ -46,6 +47,9 @@ function App() {
             <RenderizadoCondicional  />  
             <hr />
             <RenderizadoElementos  />  
+            <hr />
+            <Eventos  />  
+            <br /><br /><br />
           </section>
         </header>
       </div>
