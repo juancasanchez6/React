@@ -6,6 +6,7 @@ import RenderizadoCondicional from "./componentes/RenderizadoCondicional";
 import RenderizadoElementos from "./componentes/RenderizadoElementos";
 import { EventosES6, EventosES7, MasSobreEventos } from "./componentes/Eventos";
 import ComunicacionComponentes from "./componentes/ComunicacionComponentes";
+import CicloVida from "./componentes/CicloVida";
 import "./App.css";
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
                 correo: "Juanca.cpc16@gmail.com",
               }}
               function={(num) => num * num}
-              elementoReact={<i>Esto es un elemento reacts</i>}
+              elementoReact={<i>Esto es un elemento react</i>}
               componenteReact={
                 <Componente msg="Soy un componente pasado como prop" />
               }
@@ -61,6 +62,8 @@ function App() {
             <MasSobreEventos />
             <hr />
             <ComunicacionComponentes />
+            <hr />
+            <CicloVida />
             <br />
             <br />
             <br />
