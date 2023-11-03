@@ -14,7 +14,7 @@ export default class Padre extends Component {
   render() {
     return (
       <>
-        <h2>Comunicación entre Componentes</h2>
+        <h2>Comunicación entre Componentess</h2>
         <p>
           Contador <b>{this.state.contador}</b>
         </p>

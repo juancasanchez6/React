@@ -42,7 +42,7 @@ function App() {
                 correo: "Juanca.cpc16@gmail.com",
               }}
               function={(num) => num * num}
-              elementoReact={<i>Esto es un elemento react</i>}
+              elementoReact={<i>Esto es un elemento reacts</i>}
               componenteReact={
                 <Componente msg="Soy un componente pasado como prop" />
               }
