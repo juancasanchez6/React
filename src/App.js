@@ -9,6 +9,7 @@ import ComunicacionComponentes from "./componentes/ComunicacionComponentes";
 import CicloVida from "./componentes/CicloVida";
 import AjaxApis from "./componentes/AjaxApis";
 import ContadorHooks from "./componentes/ContadorHooks";
+import ScrollHooks from "./componentes/ScrollHooks";
 import "./App.css";
 
 function App() {
@@ -69,7 +70,9 @@ function App() {
             <hr />
             <AjaxApis />
             <hr />
-            <ContadorHooks />
+            <ContadorHooks titulo= "Seguidores" />
+            <hr />
+            <ScrollHooks />
             <br />
             <br />
             <br />
