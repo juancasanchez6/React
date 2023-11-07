@@ -3,7 +3,7 @@ import { useFetch } from "../hooks/useFetch";
 
 export default function HooksPersonalizados() {
   let url = "https://pokeapi.co/api/v2/pokemon/";
-  url = "https://jsonplaceholder.typicode.com/users"
+  url = "https://jsonplaceholder.typicode.com/userss"
   //console.log(useFetch())
 
   let {data, isPending, error} = useFetch(url);
