@@ -10,6 +10,7 @@ import CicloVida from "./componentes/CicloVida";
 import AjaxApis from "./componentes/AjaxApis";
 import ContadorHooks from "./componentes/ContadorHooks";
 import ScrollHooks from "./componentes/ScrollHooks";
+import RelojHooks from "./componentes/RelojHooks";
 import "./App.css";
 
 function App() {
@@ -73,6 +74,8 @@ function App() {
             <ContadorHooks titulo= "Seguidores" />
             <hr />
             <ScrollHooks />
+            <hr />
+            <RelojHooks />
             <br />
             <br />
             <br />
