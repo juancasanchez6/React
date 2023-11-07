@@ -57,7 +57,7 @@ export default function AjaxHooks() {
       });
     };
 
-    getPokemons("https://pokeapi.co/api/v2/pokemon/");
+    //getPokemons("https://pokeapi.co/api/v2/pokemon/");
   }, []);
 
   return (
