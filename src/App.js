@@ -16,6 +16,7 @@ import HooksPersonalizados from "./componentes/HooksPersonalizados";
 import Referencias from "./componentes/Referencias";
 import Formularios from "./componentes/Formularios";
 import Estilos from "./componentes/Estilos";
+import ComponentesEstilizados from "./componentes/ComponentesEstilizados";
 import "./App.css";
 
 function App() {
@@ -76,7 +77,7 @@ function App() {
             <hr />
             <AjaxApis />
             <hr />
-            <ContadorHooks titulo= "Seguidores" />
+            <ContadorHooks titulo="Seguidores" />
             <hr />
             <ScrollHooks />
             <hr />
@@ -91,6 +92,8 @@ function App() {
             <Formularios />
             <hr />
             <Estilos />
+            <hr />
+            <ComponentesEstilizados />
             <br />
             <br />
             <br />
